@@ -5,7 +5,7 @@ html, body{
 }
 
 html, body {
-    background-image: url(http://mikeldraws.com/img/fondo.jpg);*/
+    background-image: url(file:///C:/Users/Mikel/Documents/mikel.draws%20web/mikel.draws/img/fondo.jpg);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -24,13 +24,28 @@ html, body {
     font-family: 'Roboto Slab', serif;
 }
 
+.reel {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    max-width: 50em;
+    margin: 0 auto;
+ 
+    font-family: 'Roboto Slab', serif;
+}
+
 .logo {
+    max-width: 100%;
+    height: auto;
     margin-bottom: 30px;
 }
 
 .all {
     list-style: none;
     color: black;
+    padding-left: 0px;
 }
 
 .content {
@@ -89,8 +104,9 @@ html, body {
 }*/
 
 @media (max-width: 460px) { 
-
-    .gif{
-        width: 600px;
-    }
+        
+    .content{
+        margin: 10px;
+    }    
+    
     }
