@@ -5,7 +5,7 @@ html, body{
 }
 
 html, body {
-    background-image: url(file:///C:/Users/Mikel/Documents/mikel.draws%20web/mikel.draws/img/fondo.jpg);*/
+    background-image: url(http://mikeldraws.com/img/fondo.jpg);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -98,7 +98,7 @@ html, body {
     }    
     
     .reel {
-        width: 540px;
+        width: 500px;
     }
     
     .link {
