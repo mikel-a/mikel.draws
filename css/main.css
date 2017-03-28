@@ -1,6 +1,5 @@
 html, body{
     height: 100vh;
-    overflow: hidden;
     cursor: default;
 }
 
@@ -105,5 +104,10 @@ html, body {
     .link {
         padding-left: 10px;
     }
+	
+    .content {
+        text-shadow: 0px 1px 2px rgba(0,0,0,0.16);
+        font-size: 15px;
+}
     
     }
